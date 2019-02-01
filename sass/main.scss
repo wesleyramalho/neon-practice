@@ -12,4 +12,16 @@ html {
 
 body {
   box-sizing: border-box;
+  height: 100vh;
+}
+
+.container {
+  background-color: antiquewhite;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__neon-text {
+    align-self: center;
+  }
 }

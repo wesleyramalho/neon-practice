@@ -9,4 +9,14 @@ html {
   font-size: 100; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  height: 100vh; }
+
+.container {
+  background-color: antiquewhite;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .container__neon-text {
+    align-self: center; }
